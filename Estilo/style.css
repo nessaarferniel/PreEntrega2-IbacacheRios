@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+Body{ 
+    background-color: #fff5ee;
+}
+
+/*HEADER*/
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    text-decoration: none;
+    padding:20px 10px;
+    
+    
+}
+
+
+h1 {
+    text-align: center;
+    display: flex inline-block;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    padding: 50px;
+    border:50px;
+    margin: 50px;
+    grid-area: h1;
+
+    
+}
+
+
+.headerlinks{
+    
+    list-style: none;
+    grid-area: headerlinks;
+    
+}
+
+
+
+.headerlinks a {
+
+    text-decoration: none;
+    color:#201106 ;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    grid-area: headerlinks;
+
+}
+
+
+
+
+
+/*FOOTER*/
+
+footer {
+    text-align: center;
+}
+
+h3 {
+    color: #201106;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    grid-area: h3;
+}
+
+.footer  {
+    color: #201106;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    list-style: none;
+    grid-area: footer;
+    
+   
+   
+}
+
+.end {
+    color: #201106;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+   
+
+}
+
+/*MAIN*/
+
+
+.elmenu {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    align-items: baseline;
+    grid-area: elmenu;
+    
+    
+}
+
+.plato1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    grid-area: plato1;
+}
+.precios{
+    padding: 25px;
+    
+
+
+}
+
+.foto{
+    padding: 25px;
+
+}
+
+/* INDICE main * PAGINA INDEX */
+
+
+
+.inicioflex {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+
+
+.carne1 {
+
+    width: 300px;height: 300px;
+    padding: 20px;
+    grid-area: carne1;
+   
+
+}
+
+
+.textoindex {
+    color: #201106;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+    text-align: start;
+    grid-area: textoindex;
+    
+}
+/*iconos redes sociales */
+
+.h2index {
+    color: #201106;
+    font-size: 36px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.instaindex {
+
+    width: 45px;height: 45px;
+    grid-template-columns: instaindex;
+}
+
+
+
+.h2index {
+    text-align: center;
+    grid-area: h2index;
+}
+
+
+/* CARTA */
+
+.platos {
+    color: #201106;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    grid-area: platos;
+
+}
+
+.tipocomida {
+
+    width: 200px;height: 200px;
+    grid-area: tipocomida;
+}
+
+.cartacomida {
+    color: #201106;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+    grid-area: cartacomida;
+
+}
+
+.preciocomida {
+
+    color: #4e2b10;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+    grid-area: preciocomida;
+}
+
+/* CONTACTO */ /*NO SE COMO IGUALAR LOS RECUADROS */
+
+.form {
+    color: #201106;
+    font-size: 19px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+
+.mapa {
+    text-align: center;
+    grid-area: mapa;
+}
+
+.contactame {
+    text-align: center;
+}
+
+/* REDES SOCIALES EN CONTACTO */
+
+.redescontacto {
+    color: #201106;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* OPINIONES */
+
+.lasopiniones {
+    text-align: center;
+}
+
+.avatar1 {
+    text-align: left;
+    width: 55px;height: 55px;
+    grid-area: avatar1;
+}
+
+.dejaropinion {
+    text-align: center;
+}
+
+.comentario1 {
+    grid-area: comentario1;
+}
+
+.comtentario2 {
+    grid-area: comentario1;
+}
+
+.comentario3 {
+    grid-area: comentario1;
+}
+
+/* PROMOCIONES */
+
+.redespromo {
+    text-align: center;
+}
+
+.textredes {
+    color: #201106;
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+      
+}
+
+.por2 {
+    width: 300px;height: 300px;
+    grid-area: por2;
+
+}
+
+
+
+.promo1 {
+    color: #201106;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    padding: 25px;
+}
+
+.oferton {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+   
+    
+}
+
+.promofinal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+@media (max-width: 480px)
+{
+    /* index */
+    h1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 24px;
+        /* siento que no consigo centrar del todo el nombre, sobretodo cuando hago mas pequeña la interfaz */
+    }
+
+    .headerlinks a {
+     font-size: 10px;
+    }
+
+    .inicioflex {
+        display: grid;
+        
+        grid-template-areas: 
+        "carne1"
+        "textoindex";
+    }
+
+    .carne1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 240px;height: 240px;
+
+
+    }
+
+    .textoindex {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: start;
+        font-size: 14px;
+        
+
+    }
+
+    .h2index {
+        font-size: 20px;
+    }
+
+    .instaindex {
+
+        width: 28px;height: 28px;
+    }
+  /* carta */
+    .platos {
+        font-size: 26px;
+    }
+
+    .cartacomida {
+        font-size: 13px;
+    }
+    .preciocomida {
+        font-size: 13px;
+    }
+    .tipocomida {
+
+        width: 150px;height: 150px;
+    }
+
+    .plato1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    h3 {
+        font-size: 10px;
+    }
+
+    .footer {
+        font-size: 8px;
+
+    }
+    /* contacto */
+
+    .mapa {
+        padding: 25px;
+    
+
+    }
+/* opiniones */
+
+.comentario1 {
+    width: 700px;height: 160px;
+
+
+}
+
+/* promociones */
+
+.por2{
+    width: 200px;height: 200px;
+}
+
+
+
+
+
+    
+}
+
+
